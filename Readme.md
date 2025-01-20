@@ -16,11 +16,11 @@ Our website is a dynamic and user-friendly platform designed to provide an excep
  Whether you're exploring, learning and practicing **Technology**, our site offers seamless navigation, engaging content, and responsive design for optimal viewing across all devices.
 
 ### **Demo**
-**Desktop Dimension**:
+**Desktop Dimension**: <br>
 ![screenshot](img/screenshot1.png)
-**Ipad Dimension**:
+**Ipad Dimension**: <br>
 ![screenshot](img/screenshot2.png)
-**Iphone X Dimension**:
+**Iphone X Dimension**: <br>
 ![screenshot](img/screenshot3.png)
 
 ---
