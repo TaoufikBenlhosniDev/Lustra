@@ -1,0 +1,653 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #313e4c;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+/* HomePage */
+/* Section One  */
+#header {
+    background-color: #313e4c;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#header h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff
+}
+
+#header h2 .link {
+    text-decoration: none;   
+    color:#fff
+}
+
+#header p  {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff
+}
+
+#subscribe  {
+   
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    position: fixed; 
+    top: 5px;
+    right: 5px;
+}
+
+#subscribe li {
+    list-style: none;
+    padding: 10px;
+}
+
+#subscribe .mobile {
+    display: none;
+}
+
+#subscribe li a,
+#subscribe .mobile {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight:  600; 
+}
+
+#subscribe li a:hover {
+    color: #a5c8f8;
+}
+
+#close {
+    display: none;
+}
+
+#navbar  {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+#navbar li {
+    list-style: none;
+    display: relative ;
+    padding:  35px 30px; 
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-size: 14px;
+    font-weight:  600;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #a5c8f8;
+}
+
+/* Section Two */
+#content {
+    background-image: url('img/background_home.jpg') ;
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 0% left  0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#content button {
+    font-size: 24px;
+    font-weight: 800;
+    background-color: transparent;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: 0.9s ease;    
+}
+
+#content button:hover {
+    color: #a5c8f8 ;
+}
+
+/* Section Three */
+#Categories {
+    background-color: #313e4c;
+    padding-bottom: 20px;
+}
+
+#Categories .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 35px; 
+    
+}
+
+#Categories .items .item {
+    width: 280px;
+    background-color: #e9eff7; 
+    margin-bottom: 35px;
+    border-radius: 8px; 
+    transition: 0.3s ease; 
+    
+}
+
+#Categories .items .item:hover{
+    box-shadow: 10px 10px 54px  rgba(207, 202, 202, 0.3);
+}
+
+#Categories .items .item img {
+    max-width:  100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#Categories .items .item h3 {
+    font-size: 18px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+#Categories .items .item h3 .cattitle {
+    text-decoration: none;
+    color: #313e4c;
+    transition: 0.3s ease;
+}
+
+#Categories .items .item h3 .cattitle:hover {
+    color: #6b7b8b;
+}
+
+#Categories .items .item p {
+    font-size: 15px;
+    color: #313e4c;
+    margin: 0px 15px;
+    padding-bottom: 20px;
+}
+
+/* Section Four */
+#Features {
+    
+    padding-bottom: 20px;
+}
+
+#Features .items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 35px; 
+    
+}
+
+#Features .items .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+    background-color: #e9eff7; 
+    margin-bottom: 35px;
+    border-radius: 8px; 
+    transition: 0.3s ease; 
+    
+}
+
+#Features .items .item:hover{
+    box-shadow: 10px 10px 54px  rgba(207, 202, 202, 0.3);
+}
+
+#Features .items .item img {
+    
+    max-width:  70%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#Features .items .item h3 {
+    font-size: 18px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Section Five */
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    background-color: #e9eff7;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+#newsletter h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #313e4c;
+    padding-bottom: 15px;
+}
+
+#newsletter p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 65%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsletter button {
+    background-color: #313e4c;
+    color:  #e9eff7; 
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter button:hover {
+    border: 1px solid;
+    background-color: #e9eff7 ;
+    color: #313e4c;
+    
+}
+
+/* footer */
+
+footer .imgFormobile {
+    display: none;
+}
+
+#footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding-bottom: 0px;
+    margin:  50px ;
+}
+
+#footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 35px;
+    /* padding: 35px; */
+
+}
+
+#footer .logo {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 35px;
+}
+
+#footer h4 {
+    font-size: 22px;
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+#footer a,
+#footer p {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#footer .install {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer  a:hover {
+    color: #a5c8f8;;
+}
+
+#footer .googlestore,
+#footer .appstore {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #fff;
+    padding: 22px;
+}
+
+footer .copyright a {
+    text-decoration: none;
+    color: #fff;
+  
+}
+
+footer .copyright i {
+    padding: 8px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+footer .copyright  i:hover {
+    color: #a5c8f8;;
+}
+
+
+
+
+@media  (max-width:799px) {
+
+    #header h1 {
+        text-align: left;
+    }
+
+    #header p {
+        text-align: left;
+    }
+
+    #subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 25px;
+    }
+
+    #subscribe li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #subscribe .mobile {
+        display: flex;
+        font-size: 35px;
+        padding: 0 20px;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        height: 100%;
+        width: 300px;
+        top: 0;
+        right: -400px;
+        background-color: #313e4c;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 120px 0 0 10px;
+      
+    }
+
+    #navbar li {
+        padding: 35px 30px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 35px;
+        padding-top: 25px;
+       
+    }
+
+    #Categories .items .item {
+        width: 320px;
+    }
+
+    #Features .items .item {
+        width: 320px;
+     
+    }
+
+    #newsletter {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    #Features .items .item {
+        margin-bottom: 55px;
+    }
+
+    #newsletter .newstext {
+        padding-bottom: 20px;
+    }
+
+    #newsletter .newstext p {
+        font-size: 16px;
+    }
+
+    #newsletter .form {
+        
+        width: 60%;
+        font-size: 25px;
+    }
+
+    #footer .logo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 35px;
+    }  
+
+    footer .imgFormobile {
+        display: none;
+    }
+}
+
+
+@media (max-width:499px) {
+
+    #header {
+        width: 130%;
+    }
+
+    #header h1 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #header p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    #content {
+        width: 130%;
+    }
+
+    #subscribe {
+        padding: 50px 12px;
+        top: 0;
+        right: 0;
+    }
+
+    #subscribe li a {
+        font-size: 15px;
+    }
+
+    #subscribe .mobile i {
+        font-size: 20px;
+    }
+
+    #Categories {
+            width: 130%;    
+    }
+
+    #Categories .items .item {
+        width: 100%;
+        
+    }
+
+    #Features {
+        width: 130%;
+    }
+
+    #Features .items .item {
+     
+        width: 100%;
+        
+    }
+
+    #newsletter {
+        display: flex;
+        width: 115%;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #footer {
+        
+        width: 120%;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    #footer h4 {
+        font-size: 22px;
+        padding-bottom: 40px;
+        margin-top: 100px;
+    }
+
+    #footer a, #footer p {
+        font-size: 17px;
+        text-decoration: none;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    #footer .logo {
+       display: none;
+    }
+
+    footer .imgFormobile{
+        display: flex;
+        width: 130%;
+        height: auto;
+    }
+
+    #footer .install img {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer .copyright {
+        display: flex;
+        align-items: center;
+        width: 130%;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+
+
+    footer .copyright i {
+        
+        padding: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        font-weight: 800;
+    }
+
+    footer .socialmedia {
+        padding: 5px;
+    }  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
