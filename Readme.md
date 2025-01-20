@@ -34,7 +34,7 @@ Our website is a dynamic and user-friendly platform designed to provide an excep
 ---
 
 ## File Structure
-MOSAICNEWS/ # project_Folder <br>
+Lustra/ # project_Folder <br>
 ├── index.html # Home HTML file <br>
 ├── style.css # CSS file for styling <br>
 ├── script.js # JavaScript file for interactivity <br>
@@ -55,7 +55,7 @@ MOSAICNEWS/ # project_Folder <br>
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone <rhttps://github.com/TaoufikBenlhosniDev/MosaicNews.git>
+   git clone <rhttps://github.com/TaoufikBenlhosniDev/Lustra.git>
 
 ### Running Locally
 - Navigate to `http://localhost:5500` (or your configured port) to access the website.
