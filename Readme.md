@@ -36,7 +36,7 @@ Presents a header section that contains website title navbar for menu and other 
 ---
 
 ## File Structure
-MOSAICNEWS/ # project_Folder <br>
+Lustra/ # project_Folder <br>
 ├── index.html # Home HTML file <br>
 ├── login.html # Login HTML file <br>
 ├── register.html # register HTML file <br>
@@ -59,7 +59,7 @@ MOSAICNEWS/ # project_Folder <br>
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone <rhttps://github.com/TaoufikBenlhosniDev/MosaicNews.git>
+   git clone <rhttps://github.com/TaoufikBenlhosniDev/Lustra.git>
 
 ### Running Locally
 - Navigate to `http://localhost:5500` (or your configured port) to access the website.
