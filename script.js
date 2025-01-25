@@ -15,5 +15,9 @@ if (close) {
     })
 }
 
+// Modify Copyright year
+
+document.querySelector('#year').innerHTML = new Date().getFullYear()
+
  
 

@@ -16,12 +16,14 @@ Our website is a dynamic and user-friendly platform designed to provide an excep
  Whether you're exploring, learning and practicing **Technology**, our site offers seamless navigation, engaging content, and responsive design for optimal viewing across all devices.
 
 ### **Demo**
-**Desktop Dimension**:
+**Home Page**:
+Presents a header section that contains website title navbar for menu and other for subscribe, a presentative background, List of categories and other for Features, in Bottom of page there are a newslettre section and links section.
 ![screenshot](img/screenshot1.png)
-**Ipad Dimension**:
-![screenshot](img/screenshot2.png)
-**Iphone X Dimension**:
-![screenshot](img/screenshot3.png)
+**Log In Page**:
+![screenshot](img/screenshot4.png)
+**Register Page**:
+![screeshot](img/screenshot5.png)
+
 
 ---
 
@@ -36,6 +38,8 @@ Our website is a dynamic and user-friendly platform designed to provide an excep
 ## File Structure
 MOSAICNEWS/ # project_Folder <br>
 ├── index.html # Home HTML file <br>
+├── login.html # Login HTML file <br>
+├── register.html # register HTML file <br>
 ├── style.css # CSS file for styling <br>
 ├── script.js # JavaScript file for interactivity <br>
 ├── README.md # Project documentation <br>
