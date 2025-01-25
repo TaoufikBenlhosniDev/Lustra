@@ -18,9 +18,9 @@ Our website is a dynamic and user-friendly platform designed to provide an excep
 ### **Demo**
 **Home Page**:
 Presents a header section that contains website title navbar for menu and other for subscribe, a presentative background, List of categories and other for Features, in Bottom of page there are a newslettre section and links section.
-![screenshot](img/screenshot1.png) <br>
+![screenshot](img/screenshot1.png) <br><br>
 **Log In Page**:
-![screenshot](img/screenshot4.png) <br>
+![screenshot](img/screenshot4.png) <br><br>
 **Register Page**:
 ![screeshot](img/screenshot5.png) <br>
 
