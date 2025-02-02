@@ -677,36 +677,49 @@ footer .copyright  i:hover {
 
 
 @media (max-width:499px) {
+   
+    html, body {
+
+        overflow-x: hidden;
+
+    }
 
     #header {
-        width: 130%;
+        width: 100%;
+        position: fixed
     }
 
     #header h1 {
-        font-size: 20px;
+        padding: 0px 0px;
+        top: 0;
+        right: 0;
+        font-size: 17px;
         text-align: left;
     }
 
     #header p {
-        font-size: 15px;
+        font-size: 12px;
         text-align: left;
     }
 
     #content {
 
-        width: 130%;
+        width: 100%;
+        margin-top: 80px;
      
         
     }
 
     #subscribe {
-        padding: 50px 12px;
+        padding: 5px 5px;
         top: 0;
         right: 0;
+        position:absolute; /* Ensures child elements stay within */
+        
     }
 
     #subscribe li a {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     #subscribe .mobile i {
@@ -714,7 +727,7 @@ footer .copyright  i:hover {
     }
 
     #Categories {
-            width: 130%;    
+            width: 100%;    
     }
 
     #Categories .items .item {
@@ -723,7 +736,7 @@ footer .copyright  i:hover {
     }
 
     #Features {
-        width: 130%;
+        width: 100%;
     }
 
     #Features .items .item {
@@ -734,33 +747,62 @@ footer .copyright  i:hover {
 
     #newsletter {
         display: flex;
-        width: 115%;
+        width: 85%;
+        ;
         justify-content: center;
         align-items: center;
         padding: 15px;
     }
 
+    #newsletter h4 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #313e4c;
+        padding-bottom: 15px;
+    }
+
     #newsletter .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    #newsletter button {
+        width: 50%;
+        
     }
 
     #footer {
-        
-        width: 120%;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
         padding: 0px;
         margin: 0px;
+    
         
     }
 
     #footer h4 {
-        font-size: 22px;
-        padding-bottom: 40px;
+        font-size: 15px;
+        padding-bottom: 30px;
         margin-top: 100px;
     }
 
+    #footer .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 20px;
+        margin-bottom: 35px;
+        /* padding: 35px; */
+  
+    }
+
     #footer a, #footer p {
-        font-size: 17px;
+        font-size: 11px;
         text-decoration: none;
         color: #fff;
         margin-bottom: 15px;
@@ -772,20 +814,21 @@ footer .copyright  i:hover {
 
     footer .imgFormobile{
         display: flex;
-        width: 130%;
+        width: 100%;
         height: auto;
     }
 
     #footer .install img {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
+      
     }
 
     footer .copyright {
         display: flex;
         align-items: center;
-        width: 130%;
-        font-size: 15px;
+        width: 100%;
+        font-size: 10px;
         justify-content: space-between;
     }
 
@@ -799,7 +842,8 @@ footer .copyright  i:hover {
     }
 
     footer .socialmedia {
-        padding: 5px;
+        font-size: 6px;
+        padding: 2px;
     }  
 
 
@@ -812,13 +856,11 @@ footer .copyright  i:hover {
 
     #contentlogin {
         
-        width: 130%;
-      
+        width: 100%;
         background-size: auto ;
-
- 
         
     }
+
     /* Login & register pages */
     #contentlogin .login {
         display: flex;
@@ -835,8 +877,6 @@ footer .copyright  i:hover {
         margin-top: 450px;
     }
 
-
-
     #loginfooter .copyright {
         display: flex;
         align-items: center;
@@ -844,7 +884,6 @@ footer .copyright  i:hover {
         font-size: 15px;
         justify-content: space-between;
     }
-
 
     #loginfooter .copyright i {
 
